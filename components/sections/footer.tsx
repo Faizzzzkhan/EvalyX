@@ -26,7 +26,7 @@ export function Footer() {
           </p>
         </div>
         <nav className="flex flex-wrap gap-5 text-sm text-slate-600" aria-label="Footer">
-          {footerLinks.map((link) => (
+          {footerLinks.map((link) =>
             link.href.startsWith("http") ? (
               <a
                 key={link.label}
@@ -46,7 +46,7 @@ export function Footer() {
                 {link.label}
               </Link>
             )
-          ))}
+          )}
         </nav>
       </div>
     </footer>
