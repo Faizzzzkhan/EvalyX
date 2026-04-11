@@ -20,8 +20,8 @@ export function FinalCtaSection() {
               </p>
               <div className="mt-8">
                 <ButtonLink
-                  href="mailto:hello@evalyx.com?subject=Schedule%20Demo"
-                  className="bg-white text-brand-ink hover:bg-slate-100"
+                  href="tel:+917498227618"
+                  className="bg-white !text-brand-ink hover:bg-slate-100"
                 >
                   Schedule Demo
                 </ButtonLink>

@@ -39,7 +39,7 @@ export function PricingSection() {
                 </div>
               ))}
             </div>
-            <ButtonLink href="#contact" className="mt-8 w-full">
+            <ButtonLink href="tel:+917498227618" className="mt-8 w-full">
               Book a Call
             </ButtonLink>
           </div>

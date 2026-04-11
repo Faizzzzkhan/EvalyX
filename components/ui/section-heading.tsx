@@ -15,7 +15,7 @@ export function SectionHeading({
   align = "left",
   children,
 }: SectionHeadingProps) {
-  const alignment = align === "center" ? "mx-auto text-center" : "";
+  const alignment = align === "center" ? "mx-auto max-w-3xl text-center" : "";
 
   return (
     <div className={alignment}>

@@ -32,7 +32,7 @@ export function Navbar() {
               </Link>
             ))}
           </nav>
-          <ButtonLink href="#contact" className="hidden sm:inline-flex">
+          <ButtonLink href="tel:+917498227618" className="hidden sm:inline-flex">
             Book a Demo
           </ButtonLink>
         </div>
